@@ -4,9 +4,12 @@ from turtle import Turtle, Screen
 
 print(second.variable) #print variable from second module
 
-Pet = Turtle() # Create new turtle object  - Construct new object
+pet = Turtle() # Create new turtle object  - Construct new object
+pet.shape("turtle") #Change the shape
+pet.color("Blue") #Change the color
+print(pet) # Just shows you where its being saved
+pet.forward(100)
 
-print(Pet) # Just shows you where its being saved
 
 my_screen = Screen()  # Create an object
 print(my_screen.canvheight)  # Attribute associated with that screen
