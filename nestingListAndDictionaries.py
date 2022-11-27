@@ -1,3 +1,13 @@
+# #How to get things out dictionary
+# for key in programming_dictionary:
+#    print(programming_dictionary[key])
+#
+# #GradingProgram to test dictionary:
+
+
+
+
+
 #Nesting
 capitals = {
     "France":"Paris",
